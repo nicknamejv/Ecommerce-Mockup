@@ -1,0 +1,32 @@
+#cover-bg {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cover-box {
+overflow: scroll;
+}
+
+.cover-right {
+    position: absolute;
+    bottom: 10px;
+    right: 65px;
+    text-align: right;
+    line-height: 5px;
+}
+
+.cover-title {
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.cover-year {
+    font-weight: 100;
+    font-size: 75px;
+}
+
+.cover-text {
+    text-decoration: underline;
+    font-size: 20px;
+}
