@@ -1,0 +1,32 @@
+#navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-list-left {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 300;
+    position: absolute;
+    top: 8px;
+}
+
+#dot-icon {
+    color: black;
+}
+
+.nav-list-right {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 300;
+    position: absolute;
+    top: 8px;
+    right: 50px;
+}
