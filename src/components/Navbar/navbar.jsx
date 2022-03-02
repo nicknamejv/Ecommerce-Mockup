@@ -24,7 +24,7 @@ const NavBar = () => {
                         <li>
                             <BsSearch />
                         </li>
-                        <li>En|USD</li>
+                        <li>En | USD</li>
                         <li><BsPersonCircle size={20} /></li>
                     </ul>
                 </div>
