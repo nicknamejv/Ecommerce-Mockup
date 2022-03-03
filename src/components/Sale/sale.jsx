@@ -13,9 +13,18 @@ const Sale = () => {
                     <p>
                         70% off
                     </p>
-                    <p style={{ border: '1px solid white', padding: '25px', width: '250px' }}>
-                        Shop now
-                    </p>
+                    <a href="#" style={{
+                        textDecoration: 'none'
+                    }}>
+                        <p style={{
+                            border: '1px solid white',
+                            padding: '25px',
+                            width: '250px',
+                            color: 'white'
+                        }}>
+                            Shop now
+                        </p>
+                    </a>
                 </section>
             </div>
         </div>
