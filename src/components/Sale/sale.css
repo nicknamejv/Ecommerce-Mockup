@@ -1,0 +1,30 @@
+#sale {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sale-image {
+    position: relative;
+}
+
+.saleImg {
+    object-fit: cover;
+    width: 100vw;
+    height: 800px;
+}
+
+.sale-right {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: .5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: left;
+    margin-right: 120px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+

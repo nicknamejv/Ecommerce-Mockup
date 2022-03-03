@@ -3,7 +3,8 @@ import {
   Body,
   NavBar,
   Cover,
-  Product
+  Product,
+  Sale
 } from "./components/index.js";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Cover />
       <Body />
       <Product />
+      <Sale />
     </div>
   );
 }
