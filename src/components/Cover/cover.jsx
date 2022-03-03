@@ -10,7 +10,9 @@ const Cover = () => {
                 <section className='cover-right'>
                     <h1 className='cover-title'>SHOES GALORE</h1>
                     <h3 className='cover-year'>2022</h3>
-                    <p className='cover-text'>Discover now</p>
+                    <a href="#">
+                        <p className='cover-text'>Discover now</p>
+                    </a>
                 </section>
             </div>
         </div>

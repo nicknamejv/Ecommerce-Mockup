@@ -1,9 +1,10 @@
 import React from 'react';
 import '../Navbar/navbar.css';
-import { 
-    BsThreeDots, 
-    BsSearch, 
-    BsPersonCircle} from 'react-icons/bs';
+import {
+    BsThreeDots,
+    BsSearch,
+    BsPersonCircle
+} from 'react-icons/bs';
 
 const NavBar = () => {
     return (
@@ -12,20 +13,44 @@ const NavBar = () => {
                 <div className="nav-left">
                     <ul className='nav-list-left'>
                         <li>
-                            <BsThreeDots id='dot-icon' size={30} />
+                            <a href="#">
+                                <BsThreeDots id='dot-icon' size={30} />
+                            </a>
                         </li>
-                        <li>Sale</li>
-                        <li>Men</li>
-                        <li>Women</li>
+                        <li>
+                            <a href="#">
+                                Sale
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Men
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Women
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="nav-right">
                     <ul className="nav-list-right">
                         <li>
-                            <BsSearch />
+                            <a href="#">
+                                <BsSearch />
+                            </a>
                         </li>
-                        <li>En | USD</li>
-                        <li><BsPersonCircle size={20} /></li>
+                        <li>
+                            <a href="#">
+                                En | USD
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <BsPersonCircle size={20} />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
