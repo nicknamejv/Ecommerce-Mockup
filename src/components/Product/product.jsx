@@ -5,7 +5,7 @@ import '../Product/product.css';
 const Product = () => {
     return (
         <div id="product">
-            {productData.map((product) => (
+            { productData.map((product) => (
                 <div className='product-list'>
                     <p>{product.name}</p>
                     <img
@@ -26,7 +26,7 @@ const Product = () => {
                     <p>{product.salePrice}</p>
                 </div>
             ))}
-        </div >
+        </div>
     )
 }
 
