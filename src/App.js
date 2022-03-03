@@ -4,7 +4,8 @@ import {
   NavBar,
   Cover,
   Product,
-  Sale
+  Sale,
+  Contact
 } from "./components/index.js";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Body />
       <Product />
       <Sale />
+      <Contact />
     </div>
   );
 }
