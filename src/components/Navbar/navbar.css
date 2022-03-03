@@ -1,7 +1,7 @@
 #navbar {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 25px;
+    left: 8px;
     right: 0;
     bottom: 0;
     height: 50px;
@@ -20,7 +20,6 @@
 .nav-list-left a {
     text-decoration: none;
     color: inherit;
-    
 }
 
 .nav-list-left li:hover {
@@ -39,7 +38,7 @@
     font-weight: 300;
     position: absolute;
     top: 8px;
-    right: 50px;
+    right: 60px;
 }
 
 .nav-list-right a {

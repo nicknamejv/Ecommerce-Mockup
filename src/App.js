@@ -1,7 +1,10 @@
 import './App.css';
-import Cover from './components/Cover/cover';
-import Body from './components/Body/body';
-import NavBar from './components/Navbar/navbar';
+import {
+  Body,
+  NavBar,
+  Cover,
+  Product
+} from "./components/index.js";
 
 function App() {
   return (
@@ -9,6 +12,7 @@ function App() {
       <NavBar />
       <Cover />
       <Body />
+      <Product />
     </div>
   );
 }

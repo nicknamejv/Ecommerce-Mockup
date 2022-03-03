@@ -1,3 +1,7 @@
+#cover {
+    margin: 18px;
+}
+
 #cover-bg {
     display: block;
     margin: 0 auto;
@@ -6,6 +10,11 @@
 
 .cover-box {
 overflow: scroll;
+}
+
+.cover-box a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .cover-right {
@@ -17,7 +26,7 @@ overflow: scroll;
 }
 
 .cover-title {
-    font-size: 75px;
+    font-size: 85px;
     font-weight: 600;
 }
 
