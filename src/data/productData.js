@@ -24,6 +24,7 @@ export const productData = [
         salePrice: "$154",
         fileName: "item4",
         sale: true,
+        salePercent: "-30%"
     },
     {
         name: "Lorem ipsum dolor sit amet blandit",
@@ -35,6 +36,7 @@ export const productData = [
         name: "Lorem ipsum dolor sit amet blandit",
         price: "$26,40",
         fileName: "item6",
-        sale: false
+        sale: false,
+        shipping: "Free shipping"
     }
 ];
