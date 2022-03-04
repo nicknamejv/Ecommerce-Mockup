@@ -3,7 +3,7 @@ import "../Footer/footer.css";
 import SocialImg from "../../assets/images/social.png";
 import PayPalImg from "../../assets/images/PayPal.svg.png";
 import VisaImg from "../../assets/images/visa.png";
-import MastercardImg from "../../assets/images/Mastercard.png";
+import MastercardImg from "../../assets/images/MastercardImg.png";
 
 const Footer = () => {
     return (
