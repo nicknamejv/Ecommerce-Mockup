@@ -1,0 +1,52 @@
+#navbar {
+    position: absolute;
+    top: 25px;
+    left: 8px;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-list-left {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 300;
+    position: absolute;
+    top: 8px;
+}
+
+.nav-list-left a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list-left li:hover {
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
+}
+
+#dot-icon {
+    color: black;
+}
+
+.nav-list-right {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 300;
+    position: absolute;
+    top: 8px;
+    right: 60px;
+}
+
+.nav-list-right a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list-right li:hover {
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
+}
