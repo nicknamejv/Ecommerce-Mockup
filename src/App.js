@@ -5,7 +5,8 @@ import {
   Cover,
   Product,
   Sale,
-  Contact
+  Contact,
+  About
 } from "./components/index.js";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Product />
       <Sale />
       <Contact />
+      <About />
     </div>
   );
 }
