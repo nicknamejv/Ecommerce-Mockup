@@ -1,9 +1,9 @@
 import React from "react";
 import "../Footer/footer.css";
 import SocialImg from "../../assets/images/social.png";
-import MastercardImg from "../../assets/images/Mastercard.png";
 import PayPalImg from "../../assets/images/PayPal.svg.png";
 import VisaImg from "../../assets/images/visa.png";
+import MastercardImg from "../../assets/images/Mastercard.png";
 
 const Footer = () => {
     return (
