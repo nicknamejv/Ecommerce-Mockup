@@ -1,9 +1,9 @@
 import React from "react";
 import "../Footer/footer.css";
 import SocialImg from "../../assets/images/social.png";
-import Mastercard from "../../assets/images/Mastercard.png";
-import PayPal from "../../assets/images/PayPal.svg.png";
-import Visa from "../../assets/images/visa.png";
+import MastercardImg from "../../assets/images/Mastercard.png";
+import PayPalImg from "../../assets/images/PayPal.svg.png";
+import VisaImg from "../../assets/images/visa.png";
 
 const Footer = () => {
     return (
@@ -52,13 +52,13 @@ const Footer = () => {
                     <hr />
                     <section className="credit-list">
                         <li className="credit-card">
-                            <img src={Mastercard} alt="mastercard" />
+                            <img src={MastercardImg} alt="mastercard" />
                         </li>
                         <li className="credit-card">
-                            <img src={Visa} alt="visa" />
+                            <img src={VisaImg} alt="visa" />
                         </li>
                         <li className="credit-card">
-                            <img src={PayPal} alt="paypal" />
+                            <img src={PayPalImg} alt="paypal" />
                         </li>
                     </section>
                 </ul>
