@@ -6,7 +6,8 @@ import {
   Product,
   Sale,
   Contact,
-  About
+  About,
+  Footer
 } from "./components/index.js";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Sale />
       <Contact />
       <About />
+      <Footer />
     </div>
   );
 }

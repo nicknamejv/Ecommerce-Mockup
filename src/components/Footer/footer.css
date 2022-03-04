@@ -1,0 +1,43 @@
+#footer {
+    margin-top: 75px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    line-height: 2.5;
+}
+
+.footer-contact-title {
+    font-weight: 300 !important;
+}
+
+.footer-contact li {
+    list-style: none;
+    font-weight: 100;
+}
+
+.credit-card {
+    filter: grayscale(1);
+}
+
+.credit-list {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.social-media img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #E0E0E0;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: inherit;
+}
